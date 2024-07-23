@@ -13,13 +13,13 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Noto+Sans:300,400,500,600,700,800|PT+Mono:300,400,500,600,700"
           rel="stylesheet"/>
     <!-- Nucleo Icons -->
-    <link href="../assets/css/nucleo-icons.css" rel="stylesheet"/>
-    <link href="../assets/css/nucleo-svg.css" rel="stylesheet"/>
+    <link href="/assets/css/nucleo-icons.css" rel="stylesheet"/>
+    <link href="/assets/css/nucleo-svg.css" rel="stylesheet"/>
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/349ee9c857.js" crossorigin="anonymous"></script>
     <link href="../assets/css/nucleo-svg.css" rel="stylesheet"/>
     <!-- CSS Files -->
-    <link id="pagestyle" href="../assets/css/corporate-ui-dashboard.css?v=1.0.0" rel="stylesheet"/>
+    <link id="pagestyle" href="/assets/css/corporate-ui-dashboard.css?v=1.0.0" rel="stylesheet"/>
 </head>
 
 <body class="g-sidenav-show  bg-gray-100">
@@ -36,7 +36,7 @@
     <div class="collapse navbar-collapse w-auto overflow-hidden" id="sidenav-collapse-main">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link  active" href="../pages/dashboard.html">
+                <a class="nav-link  active" href="/index.html">
                     <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
                         <i class="fas fa-home me-1 fs-6"></i>
                     </div>
@@ -52,7 +52,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link  " href="../pages/wallet.html">
+                <a class="nav-link  " href="/">
                     <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
                         <i class="fas fa-users me-1 text-dark fs-6"></i>
                     </div>
@@ -60,7 +60,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link  " href="../pages/wallet.html">
+                <a class="nav-link  " href="/">
                     <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
                         <i class="fas fa-gear me-1 text-dark fs-6"></i>
                     </div>
@@ -68,7 +68,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link  " href="/login.html">
+                <a class="nav-link  " href="/">
                     <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
                         <i class="fas fa-power-off me-1 text-dark fs-6"></i>
                     </div>
@@ -588,7 +588,7 @@
                     },
                     ticks: {
                         callback: function (value, index, ticks) {
-                            return parseInt(value).toLocaleString() + ' EUR';
+                            return parseInt(value).toLocaleString() + ' USD';
                         },
                         display: true,
                         padding: 10,
